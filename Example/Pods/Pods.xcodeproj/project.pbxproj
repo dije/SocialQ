@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EB33209D2BDFC92FAFAAE5D8563B922 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		1750D9EB248D9EC5AB2209F6687D528F /* SocialQPopUp.xib in Sources */ = {isa = PBXBuildFile; fileRef = 6020EF0E190022BACA06ABA6EABEFB79 /* SocialQPopUp.xib */; };
+		1E4A0DEC7212CE01E1D7FE8C3A9161F4 /* SocialQPopUp.h in Headers */ = {isa = PBXBuildFile; fileRef = BE7D5210CF42AA84C806AA01B4E50C31 /* SocialQPopUp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A35C160F744075106923F8A1A454C46 /* Pods-SocialQ_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBE88BC1AA258B68F18C1353F5F521B8 /* Pods-SocialQ_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A5B13A567AF6462276FCD1C47DAABD1 /* SocialQ-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67283E350A9E74301954A578BA2C064B /* SocialQ-dummy.m */; };
+		6F70D7FC98E36D1774C60836A7B63AD3 /* SocialQ.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 81A50F55EA45C4350B719ABD8B7D5E8B /* SocialQ.bundle */; };
+		74D315AE7A25C08F5FFA9C3BF585A8E9 /* Pods-SocialQ_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3970AB0258F4D626A16A3FBABCAE459D /* Pods-SocialQ_Tests-dummy.m */; };
+		8F26BC483327829BEFC557E0FE84718E /* SocialQ-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1121035184158F42397174D4BA8B5C1D /* SocialQ-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93A4BF488F1A8BDE5FF02ACD23E1CE01 /* Pods-SocialQ_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FBC1ADEFE740B18599B7B76B4DAADCA /* Pods-SocialQ_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3992FC1DCDC6DACAA43310CF5BC82A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		D2A1AA27167C4CF5166433C2DB482E87 /* SocialQPopUp.m in Sources */ = {isa = PBXBuildFile; fileRef = A10AAC5F563CAFF834F3DAF9FC815330 /* SocialQPopUp.m */; };
+		EA3F1CFBAFD1BBF3C5800093955CD45F /* Pods-SocialQ_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 492813B36A933DB1049B9BB269A33866 /* Pods-SocialQ_Example-dummy.m */; };
+		F80F119BC97250C506E93B0DC6180DD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A6403BEF2A93EEE0958C283B3942BF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EB73C47E753DCCA69554834B465E943;
+			remoteInfo = SocialQ;
+		};
+		B58D9F34D28D2C376146F3F0645492F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E750CCA9BB3811107547D07598F5ED0E;
+			remoteInfo = "SocialQ-SocialQ";
+		};
+		BCEB865980849EB975C4290054B0303C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EB73C47E753DCCA69554834B465E943;
+			remoteInfo = SocialQ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007C26EB7AB424F5BB0426243E1BD653 /* Pods_SocialQ_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialQ_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1121035184158F42397174D4BA8B5C1D /* SocialQ-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocialQ-umbrella.h"; sourceTree = "<group>"; };
+		16F725E87DA546F76A6BADFF068B0D87 /* Pods-SocialQ_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SocialQ_Tests-resources.sh"; sourceTree = "<group>"; };
+		2D595BA9F300CC395A7DAC1939D23985 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31B77C8544039356AB0EDE8C9CAA4104 /* SocialQ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocialQ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38B832BF92D36D9629C69AA14999A443 /* SocialQ.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SocialQ.modulemap; sourceTree = "<group>"; };
+		3970AB0258F4D626A16A3FBABCAE459D /* Pods-SocialQ_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SocialQ_Tests-dummy.m"; sourceTree = "<group>"; };
+		3A9E0B3703F267B29FAD62888F550066 /* Pods-SocialQ_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SocialQ_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		492813B36A933DB1049B9BB269A33866 /* Pods-SocialQ_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SocialQ_Example-dummy.m"; sourceTree = "<group>"; };
+		5092A1E1C68E3E6FB94D7B990FAE66C7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FBC1ADEFE740B18599B7B76B4DAADCA /* Pods-SocialQ_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SocialQ_Example-umbrella.h"; sourceTree = "<group>"; };
+		6020EF0E190022BACA06ABA6EABEFB79 /* SocialQPopUp.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SocialQPopUp.xib; sourceTree = "<group>"; };
+		67283E350A9E74301954A578BA2C064B /* SocialQ-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocialQ-dummy.m"; sourceTree = "<group>"; };
+		6EBE41FE0832AAC65E40E23EA819AFEE /* Pods-SocialQ_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SocialQ_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6F426DFE56EBE922BEF9FD2D2AEB3D5D /* Pods-SocialQ_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SocialQ_Tests.modulemap"; sourceTree = "<group>"; };
+		81A50F55EA45C4350B719ABD8B7D5E8B /* SocialQ.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialQ.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		890BB1F0E5FAB68C478FA17EC88EB7F5 /* Pods-SocialQ_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SocialQ_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		91D3650956A86C5207EA244232F02C0C /* Pods-SocialQ_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SocialQ_Example.release.xcconfig"; sourceTree = "<group>"; };
+		931D61671092E6999BBDF0B473F1E485 /* Pods-SocialQ_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SocialQ_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A0E4779FE82694B50820687EA97B0110 /* Pods-SocialQ_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SocialQ_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A10AAC5F563CAFF834F3DAF9FC815330 /* SocialQPopUp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SocialQPopUp.m; sourceTree = "<group>"; };
+		A47B3835FD6327EF76CE19FD446F2B07 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A759FE3207A70FFE98C3B8598A94FB75 /* SocialQ-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocialQ-prefix.pch"; sourceTree = "<group>"; };
+		B4A43596051D1B8A73CE860C33BAB1C3 /* Pods-SocialQ_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SocialQ_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B9886B89224FC14B600F67E3E4ACDA7B /* Pods-SocialQ_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SocialQ_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE7D5210CF42AA84C806AA01B4E50C31 /* SocialQPopUp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SocialQPopUp.h; sourceTree = "<group>"; };
+		BFB1C29342861AA6F89140868B7F82F2 /* Pods-SocialQ_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SocialQ_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CB0AE0B00E7D6560D5A5CBF391CD2DC4 /* Pods_SocialQ_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialQ_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9A9488DA94C59D1961E10FDA4CCBDB /* Pods-SocialQ_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SocialQ_Example.modulemap"; sourceTree = "<group>"; };
+		DC5943BA472E58D151803368D7313D30 /* SocialQ.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocialQ.xcconfig; sourceTree = "<group>"; };
+		DFC4BB514512D26BF184C184EFBED3FB /* Pods-SocialQ_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SocialQ_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB51ABCF9A337FFDCBD896D6A8A06484 /* Pods-SocialQ_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SocialQ_Example-resources.sh"; sourceTree = "<group>"; };
+		EBE88BC1AA258B68F18C1353F5F521B8 /* Pods-SocialQ_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SocialQ_Tests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0565DFFDF05399FDFF70EEA5980A0466 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		231568FD9CA71B08E95F962BAF4AAFC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EB33209D2BDFC92FAFAAE5D8563B922 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		525CABF0D4181D783F365EA1C9A96810 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80F119BC97250C506E93B0DC6180DD2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5861E9E01DD485DBD79B542F7E55C4AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3992FC1DCDC6DACAA43310CF5BC82A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		382FD08A9FB81B54AF7FA5FE07DBECBF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6F9B083F99997EE4FECA1C3CC65BC3CA /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		6F9B083F99997EE4FECA1C3CC65BC3CA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BE7D5210CF42AA84C806AA01B4E50C31 /* SocialQPopUp.h */,
+				A10AAC5F563CAFF834F3DAF9FC815330 /* SocialQPopUp.m */,
+				6020EF0E190022BACA06ABA6EABEFB79 /* SocialQPopUp.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		78FBEC306BAF2D21948EA99AD840BA10 /* Pods-SocialQ_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A47B3835FD6327EF76CE19FD446F2B07 /* Info.plist */,
+				6F426DFE56EBE922BEF9FD2D2AEB3D5D /* Pods-SocialQ_Tests.modulemap */,
+				890BB1F0E5FAB68C478FA17EC88EB7F5 /* Pods-SocialQ_Tests-acknowledgements.markdown */,
+				3A9E0B3703F267B29FAD62888F550066 /* Pods-SocialQ_Tests-acknowledgements.plist */,
+				3970AB0258F4D626A16A3FBABCAE459D /* Pods-SocialQ_Tests-dummy.m */,
+				6EBE41FE0832AAC65E40E23EA819AFEE /* Pods-SocialQ_Tests-frameworks.sh */,
+				16F725E87DA546F76A6BADFF068B0D87 /* Pods-SocialQ_Tests-resources.sh */,
+				EBE88BC1AA258B68F18C1353F5F521B8 /* Pods-SocialQ_Tests-umbrella.h */,
+				931D61671092E6999BBDF0B473F1E485 /* Pods-SocialQ_Tests.debug.xcconfig */,
+				BFB1C29342861AA6F89140868B7F82F2 /* Pods-SocialQ_Tests.release.xcconfig */,
+			);
+			name = "Pods-SocialQ_Tests";
+			path = "Target Support Files/Pods-SocialQ_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				DE8D375BE18AA932348C9BE92298BCB9 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9E1AD36F412CE0B16FFE551F3CFBA324 /* Products */,
+				D063D70C725A24D8648F21889D05DA2B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9E1AD36F412CE0B16FFE551F3CFBA324 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				007C26EB7AB424F5BB0426243E1BD653 /* Pods_SocialQ_Example.framework */,
+				CB0AE0B00E7D6560D5A5CBF391CD2DC4 /* Pods_SocialQ_Tests.framework */,
+				81A50F55EA45C4350B719ABD8B7D5E8B /* SocialQ.bundle */,
+				31B77C8544039356AB0EDE8C9CAA4104 /* SocialQ.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFACABDC944E290A5C629B4AAF6500FC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D595BA9F300CC395A7DAC1939D23985 /* Info.plist */,
+				38B832BF92D36D9629C69AA14999A443 /* SocialQ.modulemap */,
+				DC5943BA472E58D151803368D7313D30 /* SocialQ.xcconfig */,
+				67283E350A9E74301954A578BA2C064B /* SocialQ-dummy.m */,
+				A759FE3207A70FFE98C3B8598A94FB75 /* SocialQ-prefix.pch */,
+				1121035184158F42397174D4BA8B5C1D /* SocialQ-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SocialQ";
+			sourceTree = "<group>";
+		};
+		B30BDC2C4DF6D5DEEC3436DA581C9C01 /* Pods-SocialQ_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5092A1E1C68E3E6FB94D7B990FAE66C7 /* Info.plist */,
+				CB9A9488DA94C59D1961E10FDA4CCBDB /* Pods-SocialQ_Example.modulemap */,
+				B4A43596051D1B8A73CE860C33BAB1C3 /* Pods-SocialQ_Example-acknowledgements.markdown */,
+				DFC4BB514512D26BF184C184EFBED3FB /* Pods-SocialQ_Example-acknowledgements.plist */,
+				492813B36A933DB1049B9BB269A33866 /* Pods-SocialQ_Example-dummy.m */,
+				A0E4779FE82694B50820687EA97B0110 /* Pods-SocialQ_Example-frameworks.sh */,
+				EB51ABCF9A337FFDCBD896D6A8A06484 /* Pods-SocialQ_Example-resources.sh */,
+				5FBC1ADEFE740B18599B7B76B4DAADCA /* Pods-SocialQ_Example-umbrella.h */,
+				B9886B89224FC14B600F67E3E4ACDA7B /* Pods-SocialQ_Example.debug.xcconfig */,
+				91D3650956A86C5207EA244232F02C0C /* Pods-SocialQ_Example.release.xcconfig */,
+			);
+			name = "Pods-SocialQ_Example";
+			path = "Target Support Files/Pods-SocialQ_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D063D70C725A24D8648F21889D05DA2B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B30BDC2C4DF6D5DEEC3436DA581C9C01 /* Pods-SocialQ_Example */,
+				78FBEC306BAF2D21948EA99AD840BA10 /* Pods-SocialQ_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DE8D375BE18AA932348C9BE92298BCB9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F57F76CC4F606F83850376C823F57BCE /* SocialQ */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F57F76CC4F606F83850376C823F57BCE /* SocialQ */ = {
+			isa = PBXGroup;
+			children = (
+				382FD08A9FB81B54AF7FA5FE07DBECBF /* Pod */,
+				AFACABDC944E290A5C629B4AAF6500FC /* Support Files */,
+			);
+			name = SocialQ;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5E9E66BF8E78CDC12FD969A43E275EA5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93A4BF488F1A8BDE5FF02ACD23E1CE01 /* Pods-SocialQ_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA709E67E8A592498472F77E50B03DB1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A35C160F744075106923F8A1A454C46 /* Pods-SocialQ_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF0501EB068C47C3ECCFCE2D789357A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F26BC483327829BEFC557E0FE84718E /* SocialQ-umbrella.h in Headers */,
+				1E4A0DEC7212CE01E1D7FE8C3A9161F4 /* SocialQPopUp.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		10FCD706A97F3DE6F1E7A2A6B1CFDAD1 /* Pods-SocialQ_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BDC57B24B183F2DADCE38EE88315690 /* Build configuration list for PBXNativeTarget "Pods-SocialQ_Example" */;
+			buildPhases = (
+				F5A19748E9F7FE230B99AABA0E9BDD30 /* Sources */,
+				525CABF0D4181D783F365EA1C9A96810 /* Frameworks */,
+				5E9E66BF8E78CDC12FD969A43E275EA5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4FD81E5A6D83BBE265C02D85D4261AE /* PBXTargetDependency */,
+			);
+			name = "Pods-SocialQ_Example";
+			productName = "Pods-SocialQ_Example";
+			productReference = 007C26EB7AB424F5BB0426243E1BD653 /* Pods_SocialQ_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1EB73C47E753DCCA69554834B465E943 /* SocialQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A0D4909049C50E23B413774D5C77E60 /* Build configuration list for PBXNativeTarget "SocialQ" */;
+			buildPhases = (
+				336B9F47B4E5AB42CC81B3FB27B2DFA3 /* Sources */,
+				231568FD9CA71B08E95F962BAF4AAFC2 /* Frameworks */,
+				5CFFB734C2480032C050B231FAB282C1 /* Resources */,
+				CF0501EB068C47C3ECCFCE2D789357A6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				712716F5A56D3FD69A66EE3676FCA6DF /* PBXTargetDependency */,
+			);
+			name = SocialQ;
+			productName = SocialQ;
+			productReference = 31B77C8544039356AB0EDE8C9CAA4104 /* SocialQ.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A57A9CBD49504510315DEB3C6FF3B2FD /* Pods-SocialQ_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A387B0E9C27583BA1444FA4FC7B7E4F /* Build configuration list for PBXNativeTarget "Pods-SocialQ_Tests" */;
+			buildPhases = (
+				D1852CB6CAC0376DD88A19B03F9AA381 /* Sources */,
+				5861E9E01DD485DBD79B542F7E55C4AB /* Frameworks */,
+				CA709E67E8A592498472F77E50B03DB1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8154CED48C78CB63F28925A10E8541E /* PBXTargetDependency */,
+			);
+			name = "Pods-SocialQ_Tests";
+			productName = "Pods-SocialQ_Tests";
+			productReference = CB0AE0B00E7D6560D5A5CBF391CD2DC4 /* Pods_SocialQ_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E750CCA9BB3811107547D07598F5ED0E /* SocialQ-SocialQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91E9C1CEFB0BAA01B714C28A0213D0E2 /* Build configuration list for PBXNativeTarget "SocialQ-SocialQ" */;
+			buildPhases = (
+				6DFA185F0849E5F5383C6F703A8E9623 /* Sources */,
+				0565DFFDF05399FDFF70EEA5980A0466 /* Frameworks */,
+				BA0964AFCF08B2D8CC8C1DE771A85914 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SocialQ-SocialQ";
+			productName = "SocialQ-SocialQ";
+			productReference = 81A50F55EA45C4350B719ABD8B7D5E8B /* SocialQ.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9E1AD36F412CE0B16FFE551F3CFBA324 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10FCD706A97F3DE6F1E7A2A6B1CFDAD1 /* Pods-SocialQ_Example */,
+				A57A9CBD49504510315DEB3C6FF3B2FD /* Pods-SocialQ_Tests */,
+				1EB73C47E753DCCA69554834B465E943 /* SocialQ */,
+				E750CCA9BB3811107547D07598F5ED0E /* SocialQ-SocialQ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CFFB734C2480032C050B231FAB282C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F70D7FC98E36D1774C60836A7B63AD3 /* SocialQ.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0964AFCF08B2D8CC8C1DE771A85914 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		336B9F47B4E5AB42CC81B3FB27B2DFA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A5B13A567AF6462276FCD1C47DAABD1 /* SocialQ-dummy.m in Sources */,
+				D2A1AA27167C4CF5166433C2DB482E87 /* SocialQPopUp.m in Sources */,
+				1750D9EB248D9EC5AB2209F6687D528F /* SocialQPopUp.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DFA185F0849E5F5383C6F703A8E9623 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1852CB6CAC0376DD88A19B03F9AA381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74D315AE7A25C08F5FFA9C3BF585A8E9 /* Pods-SocialQ_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A19748E9F7FE230B99AABA0E9BDD30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3F1CFBAFD1BBF3C5800093955CD45F /* Pods-SocialQ_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		712716F5A56D3FD69A66EE3676FCA6DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SocialQ-SocialQ";
+			target = E750CCA9BB3811107547D07598F5ED0E /* SocialQ-SocialQ */;
+			targetProxy = B58D9F34D28D2C376146F3F0645492F3 /* PBXContainerItemProxy */;
+		};
+		E4FD81E5A6D83BBE265C02D85D4261AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocialQ;
+			target = 1EB73C47E753DCCA69554834B465E943 /* SocialQ */;
+			targetProxy = BCEB865980849EB975C4290054B0303C /* PBXContainerItemProxy */;
+		};
+		E8154CED48C78CB63F28925A10E8541E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocialQ;
+			target = 1EB73C47E753DCCA69554834B465E943 /* SocialQ */;
+			targetProxy = 3A6403BEF2A93EEE0958C283B3942BF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		14643DD067406179931E259C7E562C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC5943BA472E58D151803368D7313D30 /* SocialQ.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SocialQ/SocialQ-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SocialQ/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SocialQ/SocialQ.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SocialQ;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1A99F226746A4F6865421A5CE58A6F80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC5943BA472E58D151803368D7313D30 /* SocialQ.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SocialQ/SocialQ-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SocialQ/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SocialQ/SocialQ.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SocialQ;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		514D99A3BCB6387771DB0D58B51471E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 931D61671092E6999BBDF0B473F1E485 /* Pods-SocialQ_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SocialQ_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SocialQ_Tests/Pods-SocialQ_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SocialQ_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7FE011521214B70123062E3156DD55C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC5943BA472E58D151803368D7313D30 /* SocialQ.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SocialQ;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		85237B7EBAD36C7A01330CB1F8EE7BBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9886B89224FC14B600F67E3E4ACDA7B /* Pods-SocialQ_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SocialQ_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SocialQ_Example/Pods-SocialQ_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SocialQ_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B82E430C11EAF658B87C7C3DBF8C7C61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC5943BA472E58D151803368D7313D30 /* SocialQ.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = SocialQ;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B961FA9DFE0465B9BE535D20A4EB62DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91D3650956A86C5207EA244232F02C0C /* Pods-SocialQ_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SocialQ_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SocialQ_Example/Pods-SocialQ_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SocialQ_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B974C60BBE74F144CA2EE52F8B3FE408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFB1C29342861AA6F89140868B7F82F2 /* Pods-SocialQ_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SocialQ_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SocialQ_Tests/Pods-SocialQ_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SocialQ_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A387B0E9C27583BA1444FA4FC7B7E4F /* Build configuration list for PBXNativeTarget "Pods-SocialQ_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				514D99A3BCB6387771DB0D58B51471E0 /* Debug */,
+				B974C60BBE74F144CA2EE52F8B3FE408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A0D4909049C50E23B413774D5C77E60 /* Build configuration list for PBXNativeTarget "SocialQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14643DD067406179931E259C7E562C03 /* Debug */,
+				1A99F226746A4F6865421A5CE58A6F80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BDC57B24B183F2DADCE38EE88315690 /* Build configuration list for PBXNativeTarget "Pods-SocialQ_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85237B7EBAD36C7A01330CB1F8EE7BBB /* Debug */,
+				B961FA9DFE0465B9BE535D20A4EB62DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91E9C1CEFB0BAA01B714C28A0213D0E2 /* Build configuration list for PBXNativeTarget "SocialQ-SocialQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FE011521214B70123062E3156DD55C1 /* Debug */,
+				B82E430C11EAF658B87C7C3DBF8C7C61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

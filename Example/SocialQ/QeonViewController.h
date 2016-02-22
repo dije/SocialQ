@@ -7,6 +7,7 @@
 //
 
 @import UIKit;
+#import "SocialQPopUp.h"
 
 @interface QeonViewController : UIViewController
 

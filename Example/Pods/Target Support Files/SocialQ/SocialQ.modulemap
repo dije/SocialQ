@@ -1,0 +1,6 @@
+framework module SocialQ {
+  umbrella header "SocialQ-umbrella.h"
+
+  export *
+  module * { export * }
+}

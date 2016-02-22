@@ -1,0 +1,14 @@
+PODS:
+  - SocialQ (0.1.0)
+
+DEPENDENCIES:
+  - SocialQ (from `../`)
+
+EXTERNAL SOURCES:
+  SocialQ:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SocialQ: 7b31a53c1ddc237f3b075b7ed164ba245a6c3727
+
+COCOAPODS: 0.39.0

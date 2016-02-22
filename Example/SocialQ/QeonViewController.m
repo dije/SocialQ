@@ -9,6 +9,7 @@
 #import "QeonViewController.h"
 
 @interface QeonViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *popUpBtn;
 
 @end
 
@@ -24,6 +25,9 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)showPopupLogin:(UIButton *)sender {
+    
 }
 
 @end
