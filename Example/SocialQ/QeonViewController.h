@@ -10,5 +10,5 @@
 #import "SocialQPopUp.h"
 
 @interface QeonViewController : UIViewController
-
+@property (strong, nonatomic) SocialQPopUp *popUp ;
 @end

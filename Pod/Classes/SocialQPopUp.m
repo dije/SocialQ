@@ -9,20 +9,46 @@
 #import "SocialQPopUp.h"
 
 @interface SocialQPopUp ()
-@property (strong,  readwrite, nonatomic) IBOutlet UIView *popUpView;
-@property (unsafe_unretained, nonatomic) IBOutlet UIImageView *logoImg;
-@property (unsafe_unretained, nonatomic) IBOutlet UILabel *messageLabel;
+
 
 @end
 
 @implementation SocialQPopUp
 
+
+//- (id)initWithNibName:(NSString *)nibName bundle:(NSBundle *)bundle
+//{
+//    NSAssert(NO, @"Initialize with -init");
+//    return nil;
+//}
+
+-(id)initWithCoder:(NSCoder *)aDecoder{
+    self = [super initWithCoder:aDecoder];
+    if (self) {
+        
+    }
+    
+    return self;
+}
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
-    self.view.backgroundColor=[[UIColor blackColor] colorWithAlphaComponent:.6];
-    self.popUpView.layer.cornerRadius = 5;
-    self.popUpView.layer.shadowOpacity = 0.8;
-    self.popUpView.layer.shadowOffset = CGSizeMake(0.0f, 0.0f);
-    [super viewDidLoad];
+    
+    self.view.backgroundColor=[[UIColor blackColor] colorWithAlphaComponent:.7];
+    self.view.layer.cornerRadius = 5;
+    self.view.layer.shadowOpacity = 0.5;
+    self.view.layer.shadowOffset = CGSizeMake(0.0f, 0.0f);
+    //[self popClose:self];
+     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -30,20 +56,27 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)popClose:(id)sender {
+    NSLog(@"Button Pressed");
+    [self removeAnimate];
+}
+- (IBAction)BtnHei:(id)sender {
+    NSLog(@"Hei Bitch!");
+}
 
-- (void)showInView:(UIView *)aView withtext:(NSString *)withtext animated:(BOOL)animated
-{
+- (void)showInView:(UIView *)aView withtext:(NSString *)withtext animated:(BOOL *)animated
+{   NSLog(@"Show Pop Up");
     [aView addSubview:self.view];
     //_logoImg.image = image;
+    //_popUpView = aView;
     _messageLabel.text = withtext;
+//    [_btnClose addTarget:self action:@selector(popClose:) forControlEvents:UIControlEventTouchUpInside];
     if (animated) {
         [self showAnimate];
     }
 }
 
-- (IBAction)closePopup:(id)sender {
-    [self removeAnimate];
-}
+
 
 
 

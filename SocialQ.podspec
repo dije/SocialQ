@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SocialQ"
-  s.version          = "0.1.0"
+  s.version          = "0.1.3"
   s.summary          = "Framework For Qeon"
 
 # This description is used to generate tags and improve search results.
@@ -18,20 +18,21 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = "Frame Work Login FB Ios Qeon"
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SocialQ"
+  s.homepage         = "https://bitbucket.org/ondedark/socialq"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Qeon" => "dwijayanto@qeon.co.id" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SocialQ.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://ondedark@bitbucket.org/ondedark/socialq.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
-
+#s.resources = 'Pod/Classes/**/*.{xib}'
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
-    'SocialQ' => ['Pod/Assets/*.png']
+'SocialQ' => ['Pod/Assets/*.png','Pod/**/*.xib']
   }
+
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
