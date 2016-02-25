@@ -12,9 +12,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    SocialQPopUp * initFB = [[SocialQPopUp alloc]init];
+    [initFB qeonFBDelegate:application didFinishLaunchingWithOptions:launchOptions];
     // Override point for customization after application launch.
     return YES;
 }
+
+//- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+//    return [[FBSDKApplicationDelegate sharedInstance] application:application
+//                                                          openURL:url
+//                                                sourceApplication:sourceApplication
+//                                                       annotation:annotation
+//            ];
+//}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

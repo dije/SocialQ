@@ -36,7 +36,7 @@
     _popUp = [[SocialQPopUp alloc]initWithNibName:@"SocPopUp" bundle:bundle];
    
     
-    [_popUp showInView:self.view withtext:@"Test" animated:YES];
+    [_popUp showInView:self.view animated:YES];
 }
 
 @end

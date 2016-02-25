@@ -85,9 +85,15 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-SocialQ_Example/AFNetworking.framework"
+  install_framework "Pods-SocialQ_Example/Bolts.framework"
+  install_framework "Pods-SocialQ_Example/FBSDKCoreKit.framework"
+  install_framework "Pods-SocialQ_Example/FBSDKLoginKit.framework"
   install_framework "Pods-SocialQ_Example/SocialQ.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-SocialQ_Example/AFNetworking.framework"
+  install_framework "Pods-SocialQ_Example/Bolts.framework"
+  install_framework "Pods-SocialQ_Example/FBSDKCoreKit.framework"
+  install_framework "Pods-SocialQ_Example/FBSDKLoginKit.framework"
   install_framework "Pods-SocialQ_Example/SocialQ.framework"
 fi

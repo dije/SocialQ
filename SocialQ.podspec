@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "SocialQ"
-  s.version          = "0.1.5"
+  s.version          = "0.1.6"
   s.summary          = "Framework For Qeon"
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 #s.resources = 'Pod/Classes/**/*.{xib}'
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
-'SocialQ' => ['Pod/Assets/*.png','Pod/**/*.xib']
+'SocialQ' => ['Pod/Assets/*.png','Pod/**/*.xib','Support\ Files/info.plist']
   }
 
 

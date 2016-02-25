@@ -20,8 +20,20 @@ PODS:
   - AFNetworking/UIKit (2.6.3):
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
-  - SocialQ (0.1.3):
+  - Bolts (1.6.0):
+    - Bolts/AppLinks (= 1.6.0)
+    - Bolts/Tasks (= 1.6.0)
+  - Bolts/AppLinks (1.6.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.6.0)
+  - FBSDKCoreKit (4.10.0):
+    - Bolts (~> 1.5)
+  - FBSDKLoginKit (4.10.0):
+    - FBSDKCoreKit
+  - SocialQ (0.1.5):
     - AFNetworking (~> 2.3)
+    - FBSDKCoreKit
+    - FBSDKLoginKit
 
 DEPENDENCIES:
   - SocialQ (from `../`)
@@ -32,6 +44,11 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
-  SocialQ: 373f2b54ca8a2186707d71bf05d2c36f63c7c53b
+  Bolts: f52a250053bb517ca874523c3913776359ab3def
+  FBSDKCoreKit: 13bec8373fb3af94d44daf2aa1e0958687897fbd
+  FBSDKLoginKit: d3d4a2e9d31954deb00bfea964167a05ca1ea976
+  SocialQ: 38c3342fa43bde74a64aaf2d10c5860de4e0c1c0
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 484ba763c57a37e8d5f1719028bc8de07f99e59e
+
+COCOAPODS: 1.0.0.beta.3

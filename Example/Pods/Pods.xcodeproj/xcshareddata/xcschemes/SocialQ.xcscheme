@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'BD06C5511BFB1B77FD37DB79'
+               BlueprintIdentifier = '58D79E0F99E1BA141EA5DEEE13A4CC93'
                BlueprintName = 'SocialQ'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'SocialQ.framework'>

@@ -12,6 +12,8 @@
 
 
 @end
+FBSDKAccessToken  *restrict tokenGet;
+FBSDKLoginManager *loginMgr;
 
 @implementation SocialQPopUp
 
@@ -42,6 +44,22 @@
 }
 
 - (void)viewDidLoad {
+    //[FBSDKSettings setAppURLSchemeSuffix:@"fbauth2"];
+    //[FBSDKSettings setAppURLSchemeSuffix:@"fb"];
+    [FBSDKSettings setAppID:@"1694860590803720"];
+    [FBSDKSettings setDisplayName:@"qmactest"];
+    
+    tokenGet = [FBSDKAccessToken currentAccessToken];
+    if (tokenGet.tokenString != nil) {
+        [_btnFb setTitle:@"Log Out" forState:UIControlStateNormal];
+        _messageLabel.text = tokenGet.tokenString;
+        NSLog(tokenGet.tokenString);
+    }
+    else{
+        [_btnFb setTitle:@"Log In" forState:UIControlStateNormal];
+        _messageLabel.text = @"Login dulu broh!";
+    }
+
     
     self.view.backgroundColor=[[UIColor blackColor] colorWithAlphaComponent:.7];
     self.view.layer.cornerRadius = 5;
@@ -60,16 +78,52 @@
     NSLog(@"Button Pressed");
     [self removeAnimate];
 }
-- (IBAction)BtnHei:(id)sender {
-    NSLog(@"Hei Bitch!");
+
+- (IBAction)btnLogFb:(id)sender {
+     NSLog(@"Login FB");
+    
+    if (tokenGet != NULL) {
+        [loginMgr logOut];
+        [FBSDKAccessToken setCurrentAccessToken:nil];
+        tokenGet = NULL;
+        [_btnFb setTitle:@"Log In" forState:UIControlStateNormal];
+        _messageLabel.text = @"Login dulu broh!";
+    } else {
+        
+        
+        loginMgr = [[FBSDKLoginManager alloc] init];
+        loginMgr.loginBehavior=FBSDKLoginBehaviorWeb;
+        [loginMgr
+         logInWithReadPermissions: @[@"public_profile"]
+         fromViewController:self
+         handler:^(FBSDKLoginManagerLoginResult *result, NSError *error) {
+             if (error) {
+                 NSLog(@"Process error");
+             } else if (result.isCancelled) {
+                 NSLog(@"Cancelled");
+             } else {
+                 tokenGet = result.token;
+                 _messageLabel.text = tokenGet.tokenString;
+                 NSLog(@"Logged in");
+             }
+         }];
+
+    }
+   
+    }
+
+
+-(void) qeonFBDelegate:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [[FBSDKApplicationDelegate sharedInstance] application:application
+                             didFinishLaunchingWithOptions:launchOptions];
+    
 }
 
-- (void)showInView:(UIView *)aView withtext:(NSString *)withtext animated:(BOOL *)animated
+- (void)showInView:(UIView *)aView animated:(BOOL *)animated
 {   NSLog(@"Show Pop Up");
     [aView addSubview:self.view];
     //_logoImg.image = image;
     //_popUpView = aView;
-    _messageLabel.text = withtext;
 //    [_btnClose addTarget:self action:@selector(popClose:) forControlEvents:UIControlEventTouchUpInside];
     if (animated) {
         [self showAnimate];
