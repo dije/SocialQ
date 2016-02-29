@@ -1,6 +1,6 @@
 {
   "name": "SocialQ",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "summary": "Framework For Qeon",
   "description": "Frame Work Login FB Ios Qeon",
   "homepage": "https://github.com/dije/SocialQ",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/dije/SocialQ.git",
-    "tag": "0.1.5"
+    "tag": "0.1.6"
   },
   "platforms": {
     "ios": "7.0"

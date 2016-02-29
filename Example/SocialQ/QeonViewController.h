@@ -8,6 +8,7 @@
 
 @import UIKit;
 #import "SocialQPopUp.h"
+#import "SocialQModel.h"
 
 @interface QeonViewController : UIViewController
 @property (strong, nonatomic) SocialQPopUp *popUp ;

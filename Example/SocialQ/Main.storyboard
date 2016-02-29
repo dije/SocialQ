@@ -31,6 +31,9 @@
                                 <state key="normal" title="Show Info">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="showInfo:" destination="whP-gf-Uak" eventType="touchUpInside" id="Ia6-rt-rrO"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="55O-NH-MDy">
                                 <rect key="frame" x="40" y="340" width="240" height="128"/>
@@ -43,6 +46,7 @@
                     </view>
                     <connections>
                         <outlet property="popUpBtn" destination="9aW-RQ-7Ni" id="pnt-ax-lZd"/>
+                        <outlet property="txtToken" destination="55O-NH-MDy" id="vw0-YE-Aku"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>

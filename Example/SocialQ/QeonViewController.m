@@ -8,8 +8,12 @@
 
 #import "QeonViewController.h"
 
-@interface QeonViewController ()
+@interface QeonViewController (){
+    SocialQModel *token;
+}
+
 @property (weak, nonatomic) IBOutlet UIButton *popUpBtn;
+@property (weak, nonatomic) IBOutlet UITextView *txtToken;
 //@property (nonatomic, retain) SocialQPopUp *popUp;
 
 @end
@@ -18,7 +22,11 @@
 
 - (void)viewDidLoad
 {
-   
+    
+    token = [SocialQModel loadFromSharePreference];
+    NSLog(@"Show Token ",token.qeonToken);
+    
+    _txtToken.text = token.qeonToken;
     
     [super viewDidLoad];
     
@@ -37,6 +45,15 @@
    
     
     [_popUp showInView:self.view animated:YES];
+    
+}
+- (IBAction)showInfo:(UIButton *)sender {
+    token = [SocialQModel loadFromSharePreference];
+    NSLog(@"Show Token ",token.qeonToken);
+    
+    _txtToken.text = token.qeonToken;
+    
+    
 }
 
 @end

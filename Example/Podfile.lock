@@ -30,7 +30,7 @@ PODS:
     - Bolts (~> 1.5)
   - FBSDKLoginKit (4.10.0):
     - FBSDKCoreKit
-  - SocialQ (0.1.5):
+  - SocialQ (0.1.6):
     - AFNetworking (~> 2.3)
     - FBSDKCoreKit
     - FBSDKLoginKit
@@ -47,7 +47,7 @@ SPEC CHECKSUMS:
   Bolts: f52a250053bb517ca874523c3913776359ab3def
   FBSDKCoreKit: 13bec8373fb3af94d44daf2aa1e0958687897fbd
   FBSDKLoginKit: d3d4a2e9d31954deb00bfea964167a05ca1ea976
-  SocialQ: 38c3342fa43bde74a64aaf2d10c5860de4e0c1c0
+  SocialQ: 314ddd916bed476608c55fa8c936ced68195e1e2
 
 PODFILE CHECKSUM: 484ba763c57a37e8d5f1719028bc8de07f99e59e
 

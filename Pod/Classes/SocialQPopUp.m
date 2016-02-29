@@ -9,9 +9,11 @@
 #import "SocialQPopUp.h"
 
 @interface SocialQPopUp ()
-
-
+{
+    SocialQModel *qtoken;
+}
 @end
+
 FBSDKAccessToken  *restrict tokenGet;
 FBSDKLoginManager *loginMgr;
 
@@ -53,9 +55,12 @@ FBSDKLoginManager *loginMgr;
     if (tokenGet.tokenString != nil) {
         [_btnFb setTitle:@"Log Out" forState:UIControlStateNormal];
         _messageLabel.text = tokenGet.tokenString;
+        qtoken = [SocialQModel initWithQeon_id:tokenGet.tokenString];
+        [qtoken savedToSharePreference];
         NSLog(tokenGet.tokenString);
     }
     else{
+        
         [_btnFb setTitle:@"Log In" forState:UIControlStateNormal];
         _messageLabel.text = @"Login dulu broh!";
     }
@@ -86,6 +91,8 @@ FBSDKLoginManager *loginMgr;
         [loginMgr logOut];
         [FBSDKAccessToken setCurrentAccessToken:nil];
         tokenGet = NULL;
+        qtoken = [SocialQModel initWithQeon_id:NULL];
+        [qtoken savedToSharePreference];
         [_btnFb setTitle:@"Log In" forState:UIControlStateNormal];
         _messageLabel.text = @"Login dulu broh!";
     } else {
@@ -104,6 +111,8 @@ FBSDKLoginManager *loginMgr;
              } else {
                  tokenGet = result.token;
                  _messageLabel.text = tokenGet.tokenString;
+                 [qtoken initWithQeon_id:tokenGet.tokenString];
+                 [qtoken savedToSharePreference];
                  NSLog(@"Logged in");
              }
          }];

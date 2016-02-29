@@ -10,6 +10,7 @@
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
 #import <FBSDKCoreKit/FBSDKAccessToken.h>
+#import "SocialQModel.h"
 
 @interface SocialQPopUp : UIViewController
 //@property (weak,  readonly,nonatomic) IBOutlet UIView *popUpView;

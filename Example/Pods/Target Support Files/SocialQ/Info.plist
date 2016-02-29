@@ -15,30 +15,12 @@
   <key>CFBundlePackageType</key>
   <string>FMWK</string>
   <key>CFBundleShortVersionString</key>
-  <string>0.1.5</string>
+  <string>0.1.6</string>
   <key>CFBundleSignature</key>
   <string>????</string>
   <key>CFBundleVersion</key>
   <string>${CURRENT_PROJECT_VERSION}</string>
   <key>NSPrincipalClass</key>
   <string></string>
-  <key>CFBundleURLTypes</key>
-  <array>
-      <dict>
-          <key>CFBundleURLSchemes</key>
-          <array>
-              <string>fb1694860590803720</string>
-              <string>fbauth2</string>
-          </array>
-      </dict>
-  </array>
-  <key>FacebookAppID</key>
-  <string>1694860590803720</string>
-  <key>LSApplicationQueriesSchemes</key>
-  <array>
-      <string>fbauth2</string>
-  </array>
-  <key>FacebookDisplayName</key>
-  <string>qmactest</string>
 </dict>
 </plist>
